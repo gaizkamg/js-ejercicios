@@ -1,0 +1,108 @@
+/* INDICE 
+
+RESET
+General
+Container
+Header
+Nav
+Main Menu
+Main
+Articles
+Sections
+Asides
+Footer
+Media Queries
+
+*/
+/* Variables CSS Generales */
+/* CSS variables: Se pueden definir cualquier variable, para usarla se pone var(--variable) como valor durante la hoja de estilos
+:root {
+  --base:              #f7392b;
+  --bg-blend:          multiply;
+  --blur:              3px;
+  --fg-blend:          lighten;
+  --foreground:        #16006f;
+  --opacity:           1; algunas variables son obvias, tiene 2 valores, pero en algún caso puede ser útil
+  --spacing:           3%;
+}
+
+.img-wrapper {
+  background-color:    var(--base);
+  display:             flex;
+  flex:                1 1 100%;
+  height:              100%;
+  overflow:            hidden;
+  padding:             var(--spacing);
+  } */
+
+/* RESET */
+
+* {
+    /* Reseteamos todos los márgenes y paddings que aplica el navegador */
+    margin: 0;
+    padding: 0;
+
+    /* Hacemos que las cajas se midan desde fuera y no le añadan pixeles los margins, paddings. */
+    box-sizing: border-box;
+}
+
+html {
+    /* Este tamaño relativo al navegador (que suele tener 16px de letra predeterminada) hace que 1rem equivalga a 10px */
+    font-size: 0.625em;
+}
+
+body {
+    /* Modificar */
+    font-size: 1.6rem;
+
+
+
+}
+
+iframe {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+:focus {
+    outline-color: #ccc;
+    outline-style: dotted;
+    outline-width: thin;
+    outline-offset: 1px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+/* General */
+
+/* Container */
+
+/* Header */
+
+/* Nav */
+
+/* Main Menu */
+
+/* Main */
+
+/* Articles */
+
+/* Sections */
+
+/* Asides */
+
+/* Footer */
+
+/* Media Queries */
+
+/* ------- Media Queries min-width 0px ----------*/
