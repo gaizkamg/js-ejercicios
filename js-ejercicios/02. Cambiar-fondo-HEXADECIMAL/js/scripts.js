@@ -64,9 +64,9 @@ function cambiarFondo(){
     mensajeH1.innerHTML = 'Color ' + (colorRGBhistorico.hex).toUpperCase(); 
   }
 
-function saludar(nombre){
+/*function saludar(nombre){
   alert(`Hola ${nombre}`);
   }
 
 saludar('Gaizka');
-setTimeout( () => { alert('Esta ventana saldrá 3 segundos después');}, 3000);
+setTimeout( () => { alert('Esta ventana saldrá 3 segundos después');}, 3000);*/

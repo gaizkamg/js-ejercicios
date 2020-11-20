@@ -1,15 +1,15 @@
 {
-    "parserOptions": {
-        "ecmaVersion": 2017
-    },
-
-    "env": {
-        "es6": true
-    },
-    
-    "rules": {
-        "semi": [2, "always"],
-        "quotes": [0, "double"]
-        
-    }
+  
+    "boss": true,
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "expr": true,
+    "immed": true,
+    "noarg": true,
+    "quotmark": "double",
+    "smarttabs": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true
 }

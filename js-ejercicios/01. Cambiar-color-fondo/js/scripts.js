@@ -29,7 +29,7 @@ miBoton.addEventListener('click', cambiarFondo);
 
 function cambiarFondo(){
 
-  let colorIndex;
+  let colorIndex1;
 
 /* Vamos a buscar un número aleatorio del 1 al 6 que son los colores dentro del array. Repetiremos este proceso siempre que el número resultante sea distinto al que ya está establecido como fondo. Si 'color = al que generamos', se repite el do
 */
